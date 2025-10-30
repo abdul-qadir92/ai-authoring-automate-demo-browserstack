@@ -1,16 +1,24 @@
 userName: YOUR_USERNAME
 accessKey: YOUR_ACCESS_KEY
-framework: true
+framework: testng
 platforms:
   - os: Windows
     osVersion: 10
-    browserName: Chrome
+    browserName: Edge
     browserVersion: 120.0
+  - os: OS X
+    osVersion: Sequoia
+    browserName: Safari
+    browserVersion: 18.4
+  - deviceName: iPhone 17 Pro Max
+    osVersion: 26
+    browserName: safari
+    deviceOrientation: portrait
+  - deviceName: Samsung Galaxy S25
+    osVersion: 15.0
+    browserName: chrome
+    deviceOrientation: portrait  
 browserstackLocal: true
 buildName: browserstack-AI agent authoring for Automate(Latest)
-projectName: BrowserStack Sample
+projectName: BrowserStack Ai Author
 aiAuthoring: true # setting this capability to true will help in running browserstack NL Authoring commands
-
-
-
-
