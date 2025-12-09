@@ -7,6 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class BstackAIAuthoring {
 
@@ -16,7 +17,10 @@ public class BstackAIAuthoring {
     public void setUp() {
         // Make sure you have chromedriver in your PATH or set the path here
         // System.setProperty("webdriver.chrome.driver", "/path/to/chromedriver");
-        driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--start-maximized");
+        driver = new ChromeDriver(options);
+
     }
 
     @Test

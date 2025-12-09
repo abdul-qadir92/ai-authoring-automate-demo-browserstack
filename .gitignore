@@ -11,3 +11,6 @@ gradlew
 gradlew.bat
 logs
 browserstack.err
+log/automation.log
+log/browserstack-javaagent.log
+log/sdk-cli.log
