@@ -11,7 +11,7 @@ accessKey: YOUR_ACCESS_KEY
 # ======================
 # The following capabilities are used to set up reporting on BrowserStack:
 # Set 'projectName' to the name of your project. Example, Marketing Website
-projectName: BrowserStack Sample
+projectName: AI Author Cross-Device
 # Set `buildName` as the name of the job / testsuite being run
 buildName: Cross-Device Automation Agent - iOS
 # `buildIdentifier` is a unique id to differentiate every execution that gets appended to
@@ -39,12 +39,12 @@ aiAuthoring: true
 # Entire list available here -> (https://www.browserstack.com/list-of-browsers-and-platforms/automate)
 
 platforms:
-  # - deviceName: iPhone 14 Pro
-  #   osVersion: 16
-  #   platformName: ios
-  # - deviceName: iPhone 13 Pro
-  #   osVersion: 15
-  #   platformName: ios
+   - deviceName: iPhone 14 Pro
+     osVersion: 16
+     platformName: ios
+   - deviceName: iPhone 13 Pro
+     osVersion: 15
+     platformName: ios
   - deviceName: iPhone 15 
     osVersion: 17
     platformName: ios
